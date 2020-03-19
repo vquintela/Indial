@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/logo.webp" type="imagenes" rel="shortcurt icon" />
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Indial SRL</title>
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <div class="contenedor">
+                <div class="btnImagen">
+                    <img src="img/logo.webp" height="50" alt="">
+                </div>
+                <div class="boton">
+                    <a href="index.html">Inicio</a>
+                    <a href="somos.html">Quienes Somos</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="informacion.html">Informacion de Interes</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <a href="javascript:void(0);" class="icon boton" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="principal">
+        <div class="container">
+            <div class="textos">
+                <div class="row featurette">
+                    <p class="text-center">de la naturaleza para la industria</p>
+                </div>
+                <div class="row featurette">
+                    <b1 class="text-center">alimentos y bebidas</b1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row-card">
+            <div class="column">
+                <h3>QUIENES SOMOS</h3>
+                <p>(...) podemos mencionar: el ser humano  quiere aumentar su calidad de vida, alcanzar un mejor equilibrio entre trabajo, familia, esparcimiento, estudio, etc., busca elementos que traigan beneficios a la salud. (...)</p>
+                <a href="somos.html" class="boton-card">Leer +</a>
+            </div>
+            <div class="column">
+                <h3>PRODUCTOS</h3>
+                <p>Las propiedades naturales del aceite de oliva han adquirido una gran importancia en la industria cosmética y de medicamentos afines, dado que ejercen una marcada acción protectora, emoliente, suavizante y reconstitutiva de la piel.</p>
+                <a href="productos.html" class="boton-card">Leer +</a>
+            </div>
+            <div class="column">
+                <h3>VENTAJAS</h3>
+                <p>(...) Obviando las posibles alergias, la mayoría de los aceites vegetales son compatibles con la piel. Para conseguir un efecto hidratante-emoliente de la piel seca se debe aplicar a diario el aceite de oliva sobre zonas resecas y tirantes (...)</p>
+                <a href="productos.html" class="boton-card">Leer +</a>
+            </div>
+        </div>
+    </div>
+    <div class="contacto">
+    <div class="container" id="contacto" name="contacto">
+        <div class="row">
+            <div class="col-sm-4">
+                <br>
+                <h3 class="titulo-contacto"><img src="img/contacto.png" alt="" width="40" height="40"> Contactanos</h3>
+                <br>
+                <p class="text-contacto">Email: infoindial@indialprod.com</p>
+                <p class="text-contacto">Telefono: (54 11) 4552 9081</p>
+            </div>
+            <div class="col-sm-8">
+                <form class="form-signin">
+                    <br>
+                    <h3 class="titulo-contacto"><img src="img/escribinos.png" alt="" width="40" height="40"> Escribinos</h3>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" class="form-contacto" id="nombre" name="nombre" aria-describedby="nombre"
+                            placeholder="Nombre" required><span id="errorNombre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-contacto" id="mail" name="mail" aria-describedby="mail"
+                            placeholder="Direccion de Email" required><span id="errorEmail" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-contacto" id="motivo" name="motivo" aria-describedby="motivo"
+                            placeholder="Motivo Contacto" required><span id="errorContacto" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-contacto" rows="5" id="comentario" name="comentario"
+                            aria-describedby="comentario" placeholder="Comentario" required></textarea><span
+                            id="errorComentario" class="text-danger"></span>
+                    </div>
+                    <input id="enviar_email" type="button" class="boton-enviar" value="Enviar"
+                        onclick="Email.validar()">
+                </form>
+            </div>
+        </div>
+        <!--<div id="lamascara" class="mascara">
+        <div class="contenido">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p>Consulta Enviada Correctamente</p>
+                        <p>En breve nos comunicaremos con usted</p>
+                        <p>Verifique su carpeta de Spam</p>
+                        <p>¡Muchas Gracias!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="aceptarEditarButton">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>-->
+    </div>
+</div>
+    <footer class="footer-distributed">
+        <div class="footer-right">
+            <img src="img/logoBlanco.webp" height="40" alt="">
+        </div>
+        <div class="footer-left">
+            <p class="footer-links">
+                <a href="index.html">Inicio</a>
+                |
+                <a href="somos.html">Quienes Somos</a>
+                |
+                <a href="productos.html">Productos</a>
+                |
+                <a href="informacion.html">Informacion de Interes</a>
+                |
+                <a href="index.html#contacto">Contacto</a>
+            </p>
+            <p>Indial SRL &copy; 2020</p>
+        </div>
+    </footer>
+</body>
+
+</html>
