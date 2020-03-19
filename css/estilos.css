@@ -302,6 +302,13 @@ body {
         height: 450px;
     }
 
+    .column-info {
+        width: 45% !important;
+        display: inline-block;
+        margin-bottom: 20px;
+        height: 450px;
+    }
+
     .principal {
         height: 200px;
         background-size: auto;
@@ -357,6 +364,12 @@ body {
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .column-info {
+        width: 100% !important;
         display: block;
         margin-bottom: 20px;
     }
