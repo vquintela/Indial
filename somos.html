@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="img/logo.webp" type="imagenes" rel="shortcurt icon" />
     <link rel="stylesheet" href="css/estilos.css" type="text/css">
-    <script type="text/javascript" src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -26,25 +25,33 @@
 </head>
 
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-            <div class="contenedor">
-                <div class="btnImagen">
-                    <img src="img/logo.webp" height="50" alt="">
-                </div>
-                <div class="boton">
-                    <a href="index.html">Inicio</a>
-                    <a href="somos.html">Quienes Somos</a>
-                    <a href="productos.html">Productos</a>
-                    <a href="informacion.html">Informacion de Interes</a>
-                    <a href="index.html#contacto">Contacto</a>
-                </div>
-                <a href="javascript:void(0);" class="icon boton" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.webp" width="90" height="40" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="somos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contacto">Contacto</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -114,8 +121,6 @@
                 <a href="somos.html">Quienes Somos</a>
                 |
                 <a href="productos.html">Productos</a>
-                |
-                <a href="informacion.html">Informacion de Interes</a>
                 |
                 <a href="index.html#contacto">Contacto</a>
             </p>

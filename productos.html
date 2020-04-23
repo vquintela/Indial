@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="img/logo.webp" type="imagenes" rel="shortcurt icon" />
     <link rel="stylesheet" href="css/estilos.css" type="text/css">
-    <script type="text/javascript" src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -26,56 +25,122 @@
 </head>
 
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-            <div class="contenedor">
-                <div class="btnImagen">
-                    <img src="img/logo.webp" height="50" alt="">
-                </div>
-                <div class="boton">
-                    <a href="index.html">Inicio</a>
-                    <a href="somos.html">Quienes Somos</a>
-                    <a href="productos.html">Productos</a>
-                    <a href="informacion.html">Informacion de Interes</a>
-                    <a href="index.html#contacto">Contacto</a>
-                </div>
-                <a href="javascript:void(0);" class="icon boton" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.webp" width="90" height="40" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="somos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead-product">
+        <div class="container h-100">
+            <div class="row h-100 align-items-end pb-5">
+              <div class="col-12 text-center">
+                <h1 class="font-weight-bold font-italic text-white">NUESTROS PRODUCTOS</h1>
+                <p class="lead text-white">Productos extraídos de la naturaleza, según las normas más exigentes, destinados a la
+                    industria de alimentos y bebidas. Siguiendo las BPM y con los controles y el acondicionamiento exigido por nuestros
+                    clientes.</p>
+              </div>
             </div>
         </div>
     </header>
+    <div class="cuadro-texto">
+        <div class="container">
+            <p>FIBRA DIETARIA AION</p>
+        </div>
+    </div>
     <div class="container">
-        <div class="text-center">
-            <br>
-            <br>
-            <h1 class="featurette-heading">NUESTROS PRODUCTOS</h1>
-            <br>
-        </div>
         <div class="row featurette">
             <p class="text-somos">
-                Productos extraídos de la naturaleza, según las normas más exigentes, destinados a la industria de alimentos y bebidas. Siguiendo las BPM y con los controles y el acondicionamiento exigido por nuestros clientes.
+                La tendencia mundial hacia una alimentación más saludable, que marca nuestro tiempo, ha incorporado ingredientes
+                naturales provenientes del reino vegetal entre los que se destacan los llamados alimentos funcionales destinados a
+                cubrir necesidades puntuales en la formulación de los productos alimenticios. Dentro de este tipo de ingredientes se
+                destaca la incorporación de fibras solubles e insolubles en los alimentos modernos, obtenidas mediante procesos
+                extractivos que no alteren su condición de naturales.<br><br>
+                Las fibras no solo cumplen una función importante en la metabolización sino que también sustituyen total o parcialmente
+                algunos de los ingredientes hoy señalados como poco beneficiosos cuando se consumen en exceso, como lo son las grasas y
+                los azúcares, a los que reemplazan parcialmente.<br><br>
+                AION, es una fibra dietaria proveniente del Limón, obtenida en la industria de los jugos cítricos por procesos mecánicos
+                que le permiten mantener sus componentes (pectinas) y ser prácticamente neutras en sabor y aroma. Dichas propiedades
+                aseguran que este producto entra en la definición de verdadero alimento funcional con diversas aplicaciones en distintos
+                rubros de la industria alimentaria.
             </p>
         </div>
-        <div class="cuadro-texto">
-            <p>Fibra AION</p>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card text-center border-0 rounded-0 mb-5">
+                    <div class="card-header border-0">
+                        <h3 class="text-white">Propiedades</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-white font-italic">
+                            -Apariencia: Polvo finamente granulado.<br>
+                            -Color: Blanco amarillento.<br>
+                            -Empaque:  Cajas de cartón conteniendo bolsas de polietileno con 25 kg. Netos.<br>
+                            -Almacenamiento: Mantener en un lugar fresco y seco.<br>
+                            -Origen: Industria Argentina.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center border-0 rounded-0 mb-5">
+                    <div class="card-header border-0">
+                        <h3 class="text-white">Aplicaciones</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-white font-italic">La Fibra AION es utilizada en diversas formulaciones de productos de la industria
+                            alimenticia y de bebidas tales como: Panificados, dulces, alfajores, barritas y confituras, helados, lácteos,
+                            salsas,sopas, alimentos envasados, bebidas, etc.
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="imagen-card">
+                    <div class="card text-center border-0 rounded-0 mb-5">
+                        <div class="card-header border-0">
+                            <h3 class="text-white">Ficha Técnica</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="text-white font-italic">
+                                -Fibra dietarias soluble: (g/100g) 20 a 24<br>
+                                -Fibra dietaria insoluble: (g/100g) 38 a 46<br>
+                                -Pectinas Totales (g/100g): 23 a 25<br>
+                                -Proteina Bruta (g/100g): 6 a 7<br>
+                                -Humedad: menos del 10 %
+                                <br>
+                                <br>
+                                <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="img-prod"></div>
-        <div class="row featurette">
-            <p class="text-somos">
-                Las propiedades naturales del aceite de oliva han adquirido una gran importancia en la industria cosmética y de
-                medicamentos afines, dado que ejercen una marcada acción protectora, emoliente, suavizante y reconstitutiva de
-                la piel.<br>
-                La creciente demanda de productos naturales ha impulsado su utilización en las más variadas formulaciones.
-                Respondiendo a ello, presentamos un producto natural que se obtiene partiendo de la selección de las mejores
-                variedades de frutos. Los aceites se extraen por el moderno método de centrifugado, lo que posibilita adecuarlos
-                a la utilización por la industria cosmética controlando y neutralizando su acidez y aroma naturales. Nuestra
-                cercanía tanto a la producción agrícola como a los procesos de extracción nos permiten asegurar un producto
-                cuidado y apto, sin que se pierdan las características naturales que lo hacen valioso, entre las cuales se
-                encuentran:
-            </p>
-        </div>
-        <div class="row-card">
+        <!-- <div class="row-card">
             <div class="column">
                 <h3>BENEFICIOS</h3>
                 <p>
@@ -92,7 +157,7 @@
                 <h3>ESPECIFICACIONES TÉCNICAS</h3>
                 <p>(...) Obviando las posibles alergias, la mayoría de los aceites vegetales son compatibles con la piel. Para conseguir un efecto hidratante-emoliente de la piel seca se debe aplicar a diario el aceite de oliva sobre zonas resecas y tirantes (...)</p>
             </div>
-        </div>
+        </div> -->
     </div>
     <footer class="footer-distributed">
         <div class="footer-right">
@@ -105,8 +170,6 @@
                 <a href="somos.html">Quienes Somos</a>
                 |
                 <a href="productos.html">Productos</a>
-                |
-                <a href="informacion.html">Informacion de Interes</a>
                 |
                 <a href="index.html#contacto">Contacto</a>
             </p>

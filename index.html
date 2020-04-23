@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="img/logo.webp" type="imagenes" rel="shortcurt icon" />
     <link rel="stylesheet" href="css/estilos.css" type="text/css">
-    <script type="text/javascript" src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -24,69 +23,85 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Indial SRL</title>
 </head>
-
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-            <div class="contenedor">
-                <div class="btnImagen">
-                    <img src="img/logo.webp" height="50" alt="">
-                </div>
-                <div class="boton">
-                    <a href="index.html">Inicio</a>
-                    <a href="somos.html">Quienes Somos</a>
-                    <a href="productos.html">Productos</a>
-                    <a href="informacion.html">Informacion de Interes</a>
-                    <a href="#contacto">Contacto</a>
-                </div>
-                <a href="javascript:void(0);" class="icon boton" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.webp" width="90" height="40" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="somos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-end pb-5">
+              <div class="col-12 text-center">
+                <h1 class="font-weight-bold font-italic text-white">de la naturaleza para la industria</h1>
+                <p class="lead text-white">alimentos y bebidas</p>
+              </div>
             </div>
         </div>
     </header>
-    <div class="principal">
-        <div class="container">
-            <div class="textos">
-                <div class="row featurette">
-                    <p class="text-center">de la naturaleza para la industria</p>
-                </div>
-                <div class="row featurette">
-                    <b1 class="text-center">alimentos y bebidas</b1>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container">
-        <div class="row-card">
-            <div class="column">
-                <h3>QUIENES SOMOS</h3>
-                <p>(...) podemos mencionar: el ser humano  quiere aumentar su calidad de vida, alcanzar un mejor equilibrio entre trabajo, familia, esparcimiento, estudio, etc., busca elementos que traigan beneficios a la salud. (...)</p>
-                <a href="somos.html" class="boton-card">Leer +</a>
+        <div class="row justify-content-md-center mt-5">
+            <div class="col-md-4">
+                <div class="card text-center border-0 rounded-0 mb-5">
+                    <div class="card-header border-0">
+                        <h3 class="text-white">QUIENES SOMOS</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-white font-italic">(...) podemos mencionar: el ser humano quiere aumentar su calidad de vida, alcanzar un mejor
+                            equilibrio entre trabajo, familia, esparcimiento, estudio, etc., busca elementos que traigan
+                            beneficios a la salud. (...)</p>
+                        <a href="somos.html" class="btn btn-primary rounded-0 mb-3 mt-3">Leer +</a>
+                    </div>
+                </div>
             </div>
-            <div class="column">
-                <h3>PRODUCTOS</h3>
-                <p>Las propiedades naturales del aceite de oliva han adquirido una gran importancia en la industria cosmética y de medicamentos afines, dado que ejercen una marcada acción protectora, emoliente, suavizante y reconstitutiva de la piel.</p>
-                <a href="productos.html" class="boton-card">Leer +</a>
-            </div>
-            <div class="column">
-                <h3>VENTAJAS</h3>
-                <p>(...) Obviando las posibles alergias, la mayoría de los aceites vegetales son compatibles con la piel. Para conseguir un efecto hidratante-emoliente de la piel seca se debe aplicar a diario el aceite de oliva sobre zonas resecas y tirantes (...)</p>
-                <a href="productos.html" class="boton-card">Leer +</a>
+            <div class="col-md-4">
+                <div class="card text-center border-0 rounded-0 mb-5">
+                    <div class="card-header border-0">
+                        <h3 class="text-white">PRODUCTOS</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-white font-italic">(...) La Fibra Dietaria AION® es ingrediente natural que puede ayudar a solucionar algunos de los
+                            problemas que se nos presentan en los productos horneados. Se trata de una fibra dietaria extraída del albedo y flavedo
+                            de los cítricos (...)</p>
+                        <a href="productos.html" class="btn btn-primary rounded-0 mb-3 mt-3">Leer +</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="contacto">
     <div class="container" id="contacto" name="contacto">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-md-4">
                 <br>
                 <h3 class="titulo-contacto"><img src="img/contacto.png" alt="" width="40" height="40"> Contactanos</h3>
                 <br>
                 <p class="text-contacto">Email: infoindial@indialprod.com</p>
                 <p class="text-contacto">Telefono: (54 11) 4552 9081</p>
             </div>
-            <div class="col-sm-8">
+            <div class="col-md-8">
                 <form class="form-signin">
                     <br>
                     <h3 class="titulo-contacto"><img src="img/escribinos.png" alt="" width="40" height="40"> Escribinos</h3>
@@ -142,8 +157,6 @@
                 <a href="somos.html">Quienes Somos</a>
                 |
                 <a href="productos.html">Productos</a>
-                |
-                <a href="informacion.html">Informacion de Interes</a>
                 |
                 <a href="index.html#contacto">Contacto</a>
             </p>
