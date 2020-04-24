@@ -205,3 +205,21 @@ Estilos Productos
     font-size: x-large;
     margin: 0px
 }
+
+/*
+Estilos Aplicaciones
+*/
+.masthead-aplicaciones {
+    height: 30vh;
+    min-height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url(../img/limon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*MODAL FADE*/
+.modal-content {
+    background-color: #6fa84b !important;
+    color: #ffffff;
+}
