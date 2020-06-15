@@ -218,6 +218,40 @@ Estilos Aplicaciones
     background-repeat: no-repeat;
 }
 
+.row-ap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.tarjeta {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-t-1 {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url("../img/panificados.png") no-repeat center center/cover;
+}
+
+.img-t-2 {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url("../img/alfajores.jpeg") no-repeat center center/cover;
+}
+
+.img-t-3 {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)), url("../img/aderezos.jpeg") no-repeat center center/cover;
+}
+
+.tarjeta h3:hover {
+    cursor: pointer;
+    font-size: 2.2rem;
+}
+
+.tarjeta h3 {
+    color: #ffffff;
+    margin: 30px;
+}
+
 /*MODAL FADE*/
 .mascara {
     display: none; 
@@ -250,4 +284,16 @@ Estilos Aplicaciones
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .row-ap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .row-ap {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
