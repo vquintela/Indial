@@ -58,7 +58,7 @@ const modalEd = (text) => {
     let mascara = document.getElementById('lamascara');
     document.getElementById('modal-texto').innerHTML = text
     mascara.style.display = "block";
-    document.querySelector("#aceptarEditarButton").addEventListener('click', () => {
+    document.querySelector("#cerrarModal").addEventListener('click', () => {
         mascara.style.display = "none";
     });
 }
